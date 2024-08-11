@@ -43,5 +43,12 @@ For this project I am using a 5 year old data set from a major FMCG company. For
 
 **Output variable:** Estimated sale units <br/>
 The output from the model will an estimate of the unit sales for the NPD in question for 52 weeks of sales. <br/>
+
+***
+
+**Model**
+
+**Problem Type:** This problem is Predictive, Supervised and Parametric. The best recommended technique (that has been successfully used in similar forecasting problems) is time series regression modelling. ARIMA or Exponential Smoothing. Selected model is ARIMA which has been used many time within this context by multiple organisations. The only key watch out for this algorithm is to ensure pre-processing is done diligently and all non-stationary (seasonality/trends) are removed from the data during modelling as a required step.
+
 ***
 
