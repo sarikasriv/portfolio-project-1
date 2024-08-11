@@ -49,7 +49,6 @@ The output from the model will an estimate of the unit sales for the NPD in ques
 **Model**
 
 **Problem Type:** This problem is Predictive, Supervised and Parametric. The best recommended technique (that has been successfully used in similar forecasting problems) is time series regression modelling. ARIMA or Exponential Smoothing. Selected model is ARIMA which has been used many time within this context by multiple organisations. The only key watch out for this algorithm is to ensure pre-processing is done diligently and all non-stationary (seasonality/trends) are removed from the data during modelling as a required step.
-
 ***
 
 **Hyperparameters and optimisation**
@@ -66,4 +65,12 @@ There are two sets of hyperparameters that will require optimisation:
 **Tuning Strategy:** Using grid search for autotuning
 
 **2. Seasonal ARIMA Hyperparameters (seasonal_order=(P, D, Q, m)):**
+
+<br/>**P (Seasonal Auto-Regressive term):** Number of seasonal lag observations.
+<br/>**D (Seasonal Differencing order):** Number of times the seasonal component needs differencing.
+<br/>**Q (Seasonal Moving Average term):** Size of the seasonal moving average window.
+<br/>**m (Seasonal period):** The number of observations per season (set to 12 for monthly data for yearly seasonality).
+
+
+**Tuning Strategy:** Using grid search for autotuning
 
