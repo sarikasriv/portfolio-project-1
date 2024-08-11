@@ -13,6 +13,6 @@ It is important for almost every FMCG brand to keep innovating and bringing in n
 ***
 **Output variable/s:** Estimated units, Suggested Price
 ***
-**Problem Type:** This problem is Predictive, Supervised and Parametric. The best recommended technique (that has been successfully used in similar forecasting problems) is time series regression modelling.
+**Problem Type:** This problem is Predictive, Supervised and Parametric. The best recommended technique (that has been successfully used in similar forecasting problems) is time series regression modelling. ARIMA or Exponential Smoothing.
 ***
 **Use purpose:** The model produced will be for repeated use purpose for key stakeholders internally within Marketing, Logistics, Demand planning, Sales and Insights and Reporting functions.
