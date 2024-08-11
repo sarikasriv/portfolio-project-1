@@ -1,0 +1,63 @@
+Model Card: New Product Sales Units Forecasting Model
+
+Model Overview
+
+Model Name
+
+Sales Units Forecasting Model using ARIMA/SARIMA with Hyperparameter Tuning
+
+Model Description
+This model is designed to predict the sales units of new products over a 52-week period using historical data of similar products. The model employs ARIMA (Auto-Regressive Integrated Moving Average) and SARIMA (Seasonal ARIMA) techniques to forecast time series data, with hyperparameter tuning performed using grid search via the pmdarima library's auto_arima function.
+
+Intended Use
+The model produced will be for repeated use purpose for key stakeholders internally within Marketing, Logistics, Demand planning, Sales and Insights and Reporting functions. This will mainly be used as a country and category specific tools during annual budget planning cycles and when building short term and long term business plans by sales teams.
+
+Primary Output
+•	Predicted Sales Units: The sum of the forecasted sales units over a 52-week period.
+
+Model Details
+
+Input Features
+•	Sales Value: Historical sales values for multiple similar products over 104 weeks. (Numerical, float)
+•	Sales Units: Historical sales units for multiple similar products over 104 weeks. (Numerical, integer)
+•	Price per Unit: Historical price per unit for multiple similar products over 104 weeks. (Numerical, float)
+•	Distribution: Historical distribution percentages for multiple similar products over 104 weeks. (Numerical, float, range: 0-100)
+
+Output Variable
+•	Estimated Sales Units: Predicted total sales units for a 52-week period. (Numerical, integer)
+
+Model Architecture
+•	ARIMA/SARIMA Model: The model uses ARIMA and SARIMA time series models, selected through grid search optimization, to predict future sales units.
+•	Hyperparameter Tuning: auto_arima is used to tune parameters, including non-seasonal (p, d, q) and seasonal (P, D, Q, m) components.
+
+Preprocessing Steps
+1.	Missing Value Handling: Blanks in the dataset are replaced with zeroes.
+2.	Seasonality Removal: Differencing is applied to remove seasonality from all input features.
+3.	Normalization: Features are normalized using MinMaxScaler.
+4.	Data Splitting: Data is divided into training (60%) and testing (40%) sets.
+
+Postprocessing Steps
+•	Summing Forecasts: The model sums the predicted sales units for the 52-week forecast horizon to generate the primary output.
+
+Model Evaluation
+•	Metric: The model is evaluated using Mean Squared Error (MSE) between the actual and predicted summed sales units.
+Tools and Libraries
+•	Python Libraries: pandas, numpy, sklearn, statsmodels, pmdarima
+
+Performance and Limitations
+Performance
+•	Mean Squared Error (MSE): This metric indicates the average squared difference between the actual and predicted sales units. Lower values indicate better model performance.
+
+Limitations
+•	Data Dependency: The model's performance is highly dependent on the quality and representativeness of the historical data provided. Which is not the same for all categories and markets.
+•	Seasonality Assumptions: The model assumes that seasonality is consistent across products, which may not always be the case.
+•	Stationarity: The ARIMA model requires the data to be stationary, which might necessitate additional preprocessing steps (e.g., differencing) that could affect the accuracy of the forecasts.
+•	Generalization: The model may not generalize well to products that differ significantly from those in the training set. This model will be very specific to the country – category combination.
+
+Deployment
+•	Environment: The model can be deployed in any Python environment with the necessary libraries installed.
+•	Scalability: The model is suitable for batch processing of sales forecasts for multiple products.
+
+Maintenance and trade off
+•	Model Updates: Regularly update the model with new data to ensure it remains accurate over time.
+•	Monitoring: Continuously monitor the model's performance using MSE and other relevant metrics to detect any degradation in predictive accuracy.
