@@ -38,4 +38,6 @@ The data used in this project is sourced from:
 There are multiple vendors within the industry that provide the such data required for this kind of modelling at a cost. For e.g., most FMCG businesses license for sales data from Nielsen, Kantar, IRI, Brand Bank and all of these can provide extensive quantity of data at a very granular level. For e.g., Nielsen will provide time series sales data for own brand and competitors at an SKU level which will have qualitative information about the products as well including but not limited to brand name, size, flavour, year of launch etc. Consumer panel vendors like Kantar will provide time series data at a granular level for own brand and competitors for consumers behaviour for past NPD for example, trial rates, repeat rates, penetration, demographics etc.
 <br/>
 For this project I am using a 5 year old data set from a major FMCG company. For confendentiality and copyrights, I will not be sharing the data set within this repository.
+
 ***
+Test
