@@ -8,16 +8,11 @@ One of the challenges within FMCG industry is related to forecasting volume for 
 <br/>
 If you are not very familiar with the FMCG industry, here is some top line information that will give some perspective:
 <br/>
-1.	A Harvard Business School study estimates 95% of new product ideas that reach the development phase go no further.
-<br/>
-3.	49% failure rate in grocery NPD, a 2004 study from the Product Development & Management Association
-<br/>
-5.	Newton estimates food manufacturers and retailers in the UK grocery industry waste £2.7 billion annually on product innovations that consumers do not want, or prove too expensive to produce.
-<br/>
-References:
-<br/>
-https://www.thegrocer.co.uk/technology-and-supply-chain/why-brands-are-adding-ai-to-their-npd-mix/684431.article
-<br/>
+1.	A Harvard Business School study estimates 95% of new product ideas that reach the development phase go no further.<br/>
+2.	49% failure rate in grocery NPD, a 2004 study from the Product Development & Management Association<br/>
+3.	Newton estimates food manufacturers and retailers in the UK grocery industry waste £2.7 billion annually on product innovations that consumers do not want, or prove too expensive to produce.<br/>
+References:<br/>
+https://www.thegrocer.co.uk/technology-and-supply-chain/why-brands-are-adding-ai-to-their-npd-mix/684431.article<br/>
 https://solutions.shopmium.com/en/npd-fmcg-brands-must-innovate-to-grow/<br/>
 ***
 **Challenge in a nutshell:** How can we improve the success of the NPDs by ensuring the best performing NPDs are launched?
