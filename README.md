@@ -5,7 +5,7 @@ This project to estimate new product volume forecast within FMCG world
 New Product Forecasting
 <br/>
 One of the challenges within FMCG industry is related to forecasting volume for New Product Development (NPD). It is important for almost every FMCG brand to keep innovating and bringing in new products. But very few product launches in the FMCG category are counted as successful (criteria may differ, for e.g., continued listing in market after a year, making the target value and volume in year 1 and onwards). If we combine it with the amount of time, effort, capital that goes in NPD launches, it can have a big effect on P/L account. Usually, a lot is riding on the success of these initiatives.
-<br/>
+<br/><br/>
 If you are not very familiar with the FMCG industry, here is some top line information that will give some perspective:
 <br/>
 1.	A Harvard Business School study estimates 95% of new product ideas that reach the development phase go no further.<br/>
