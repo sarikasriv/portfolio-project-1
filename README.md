@@ -52,3 +52,16 @@ The output from the model will an estimate of the unit sales for the NPD in ques
 
 ***
 
+**Hyperparameters and optimisation**
+
+
+There are two sets of hyperparameters that will require optimisation:
+
+
+1. ARIMA Model Hyperparameters (order=(p, d, q)):
+   p (Auto-Regressive term): This represents the number of lag observations included in the model. It determines how many past observations are used to predict the current observation
+   d (Differencing order): This indicates the number of times that the raw observations are differenced to make the time series stationary. Given that differencing has already been applied to remove seasonality, you may set this to 0 or experiment with different values.
+   q (Moving Average term): This is the size of the moving average window, i.e., the number of lagged forecast errors that are fed into the model.
+
+
+2. 
