@@ -65,7 +65,6 @@ There are two sets of hyperparameters that will require optimisation:
 **Tuning Strategy:** Using grid search for autotuning
 
 **2. Seasonal ARIMA Hyperparameters (seasonal_order=(P, D, Q, m)):**
-
 <br/>**P (Seasonal Auto-Regressive term):** Number of seasonal lag observations.
 <br/>**D (Seasonal Differencing order):** Number of times the seasonal component needs differencing.
 <br/>**Q (Seasonal Moving Average term):** Size of the seasonal moving average window.
