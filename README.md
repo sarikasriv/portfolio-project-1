@@ -30,7 +30,7 @@ https://solutions.shopmium.com/en/npd-fmcg-brands-must-innovate-to-grow/<br/>
 | **Price per unit**   | Price per unit for similar products and NPDs launches within the category (time series by weeks – 104 weeks) | Kantar        |
 | **Distribution**     | Distribution values between 0 and 100 both inclusive (time series by weeks – 104 weeks)         | NielsenIQ     |
 
-## Data Sources
+**Data Sources**
 The data used in this project is sourced from:
 
 - **NielsenIQ**: For sales data value, sales data units, and distribution data.
