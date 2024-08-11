@@ -75,3 +75,6 @@ There are two sets of hyperparameters that will require optimisation:
 
 ***
 
+**Results:**
+
+Output is a single number for each of test data set with sale units forecast for year 1 of launch.
