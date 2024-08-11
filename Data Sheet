@@ -40,7 +40,11 @@ Ans: Data was collected over 104 weeks (ending 31st July 2019)
 ## Preprocessing/cleaning/labelling
 
 - Was any preprocessing/cleaning/labelling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section. 
-Ans: Not much pre-processing was required to fix the data but we replaced missing values with zeroes for any blank values.
+Ans: yes, there were some pre-processing steps followed:
+1.	Missing Value Handling: Blanks in the dataset are replaced with zeroes.
+2.	Seasonality Removal: Differencing is applied to remove seasonality from all input features.
+3.	Normalization: Features are normalized using MinMaxScaler.
+
 
 - Was the “raw” data saved in addition to the pre-processed/cleaned/labelled data (e.g., to support unanticipated future uses)? 
 Ans: No, the raw data for this purposes was acquired from internal systems where it is already saved for future and other uses.
