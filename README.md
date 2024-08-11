@@ -39,6 +39,7 @@ There are multiple vendors within the industry that provide the such data requir
 <br/>
 For this project I am using a 5 year old data set from a major FMCG company. For confendentiality and copyrights, I will not be sharing the data set within this repository. 
 <br/>
+***
 **Output variable:** Estimated sale units
 <br/>
 **Problem Type:** This problem is Predictive, Supervised and Parametric. The best recommended technique (that has been successfully used in similar forecasting problems) is time series regression modelling. ARIMA or Exponential Smoothing.
