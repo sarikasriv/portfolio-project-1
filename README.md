@@ -39,7 +39,8 @@ There are multiple vendors within the industry that provide the such data requir
 <br/>
 For this project I am using a 5 year old data set from a major FMCG company. For confendentiality and copyrights, I will not be sharing the data set within this repository.
 
-<br/>
+
+
 **Output variable:** Estimated sale units <br/>
 The output from the model will an estimate of the unit sales for the NPD in question for 52 weeks of sales. <br/>
 ***
